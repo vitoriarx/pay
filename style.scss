@@ -1,0 +1,173 @@
+$text: none;
+$color: black;
+body{
+    background-color: #CBD6CC;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: auto;
+    height: 1100px;
+}
+img{
+    margin: 50px;
+}
+
+.get{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    text-decoration:$text;
+    color: $color;
+}
+.about{
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    text-decoration: $text;
+    color: $color;
+}
+.contact{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    text-decoration: $text;
+    color: $color;
+}
+.log{
+    text-decoration: $text;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    color: $color;
+}
+button{
+    position: absolute;
+    top: 8%;
+    left: 85%;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #e3432b;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: white;
+}
+button:hover{
+    transition: 0.7s;
+    background-color: black;
+}
+.text-one{
+    margin: 50px;
+    width: 300px;
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+p{
+    margin: 50px;
+    width: 400px;
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+.button-get{
+    position: absolute;
+    top: 55%;
+    left: 23%;
+    
+}
+.button-get:hover{
+    transition: 0.7s;
+    background-color: black;
+}
+
+.pessoas{
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    
+}
+.dados{
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+
+.ellipse{
+    position: absolute;
+    top: 20%;
+    left: 58%;
+    width: 400px;
+}
+.smartphone{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 300px;
+}
+
+@media(max-width: 1440px){
+    .button-get{
+        position: relative;
+        top: -150px;
+    }
+    .pessoas{
+        position: relative;
+        top: -90px;
+    }
+    .dados{
+        position: relative;
+        top: auto;
+        left: -40px;
+    }
+}
+@media(max-width: 1024px){
+    .dados{
+        position: absolute;
+        top: auto;
+        left: 200px;
+    }
+
+    .ellipse{
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        width: 400px;
+    }
+    .smartphone{
+        position: relative;
+        top: -500px;
+        left: 65%;
+        width: 300px;
+    }
+}
+@media(max-width: 768px){
+    .ellipse{
+        position: absolute;
+        top: 600px;
+        left:200px;
+    }
+    .smartphone{
+        position: absolute;
+        top: 600px;
+        left: 240px;
+    }
+    .button-get{
+        position: absolute;
+        top: 230px;
+        left: 200px;
+    }
+    .pessoas{
+        position: absolute;
+        top: 190px;
+        left: 280px;
+    }
+    .dados{
+        position: absolute;
+        top: 300px;
+        left: 150px;
+    }
+    .log{
+        position: absolute;
+        top: 70px;
+        left: 600px;
+    }
+}
